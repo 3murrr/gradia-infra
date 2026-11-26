@@ -17,7 +17,7 @@ metadata:
   namespace: gradia
   labels: {app: frontend}
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels: {app: frontend}
   template:
