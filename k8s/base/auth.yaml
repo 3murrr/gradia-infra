@@ -17,7 +17,6 @@ metadata:
   namespace: gradia
   labels: {app: auth}
 spec:
-  replicas: 1
   selector:
     matchLabels: {app: auth}
   template:
